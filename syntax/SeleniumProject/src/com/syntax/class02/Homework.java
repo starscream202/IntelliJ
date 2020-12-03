@@ -21,5 +21,6 @@ public class Homework {
         driver.findElement(By.id("customer.password")).sendKeys("mimimimi");
         driver.findElement(By.id("repeatedPassword")).sendKeys("mimimimi");
         driver.findElement(By.className("button")).click();
+        //driver.quit();
     }
 }
