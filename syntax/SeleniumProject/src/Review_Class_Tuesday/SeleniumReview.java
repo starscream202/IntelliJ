@@ -1,4 +1,4 @@
-package Review;
+package Review_Class_Tuesday;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

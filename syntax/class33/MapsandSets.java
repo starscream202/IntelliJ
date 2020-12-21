@@ -3,7 +3,9 @@ package class33;
 import java.util.*;
 
 public class MapsandSets {
+
     public static void main(String[] args) {
+
         HashMap<Integer,String> map=new HashMap<>();
         map.put(1,"PRESIDENT");
         map.put(2,"Vice President");
@@ -24,10 +26,19 @@ public class MapsandSets {
             Map.Entry<Integer,String> element= iterator.next();
             System.out.println(element.getKey());
             System.out.println(element.getValue());
+
+
         }
 
 
+        }
 
     }
 
-}
+
+
+
+
+
+
+
